@@ -73,3 +73,10 @@ ___
 - **[Filament-install](https://filamentphp.com/docs/3.x/panels/installation)**
 
 
+___
+___
+
+### home do projeto
+
+<p align="center"><img src="public/img/home-1.png" width="400" alt="Laravel Logo"></p>
+
