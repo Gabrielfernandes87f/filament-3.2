@@ -18,7 +18,15 @@ O filament 3.2 ja tem a função de visualizar a senha.
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aqui eu iniciei um projeto laravel do zero. instalei o tall stack e em 
+seguida o filament. Vou deixar aqui todos os comandos na ordem em que rodei.
+
+
+<pre>
+```bash copy
+npm install
+```
+</pre>
 
 
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
