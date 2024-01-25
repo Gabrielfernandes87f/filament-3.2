@@ -22,30 +22,54 @@ Aqui eu iniciei um projeto laravel do zero. instalei o tall stack e em
 seguida o filament. Vou deixar aqui todos os comandos na ordem em que rodei.
 
 
-<pre>
-```bash copy
-npm install
+___
+<p>Criar o projeto laravel com mysql</p>
+
+```bash
+curl -s "https://laravel.build/curso-filament?with=mysql" | bash
 ```
-</pre>
+<p>Instala o tall stack</p>
+
+```bash
+sail composer require livewire/livewire laravel-frontend-presets/tall
+```
+
+<p>Instala as dependências do pacote acima</p>
+
+```bash
+ sail art ui tall
+```
+
+<p>Instala e roda o npm</p>
+
+```bash
+ sail npm install && npm run dev
+```
+
+<p>Sobe o banco</p>
+
+```bash
+ art migrate
+```
+
+<p>Instala o Filamnet</p>
+
+```bash
+ sail composer require filament/filament:"^3.2" -W
+```
+
+<p>Instala as dependências Filamnet</p>
+
+```bash
+ art filament:install --panels
+```
+
+___
 
 
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### links usados
 
+- **[Laravel-install](https://laravel.com/docs/10.x#sail-on-linux/)**
+- **[Filament-install](https://filamentphp.com/docs/3.x/panels/installation)**
 
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
